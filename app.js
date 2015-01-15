@@ -12,7 +12,7 @@ app.set('view engine', 'jade');
 
 app.use(logger('dev'));
 app.use('/DNS/', routes);
-app.use(express.static(__dirname + '/public'));
+app.use('/DNS/', express.static(__dirname + '/public'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
