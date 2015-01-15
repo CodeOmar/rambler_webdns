@@ -11,8 +11,8 @@ var rambler =  rambler || {};
 var dns = {
     whitelists: {
         SRV: {
-            services: ['xmpp-client', 'xmpp-server', 'minecraft'],
-            protocols: ['tcp', 'udp']
+            services: null,
+            protocols: null
         },
         names: null
     },
